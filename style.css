@@ -426,67 +426,6 @@ body::after {
   box-shadow: 0 40px 90px rgba(0, 0, 0, 0.65), 0 0 0 1px rgba(255, 255, 255, 0.07);
   display: block;
 }
-/* Glowing rings around photo */
-.photo-ring {
-  position: absolute;
-  inset: -14px;
-  border-radius: 36px;
-  border: 1.5px solid transparent;
-  background: linear-gradient(var(--bg), var(--bg)) padding-box,
-              var(--grad-1) border-box;
-  z-index: 1;
-  pointer-events: none;
-  animation: ringGlow 4s ease-in-out infinite alternate;
-}
-.photo-ring-2 {
-  inset: -28px;
-  border-width: 1px;
-  opacity: 0.35;
-  animation-delay: -2s;
-}
-@keyframes ringGlow {
-  from { opacity: 0.6; box-shadow: 0 0 20px rgba(0, 212, 255, 0.15); }
-  to   { opacity: 1;   box-shadow: 0 0 50px rgba(0, 212, 255, 0.35), 0 0 80px rgba(139, 92, 246, 0.2); }
-}
-
-/* Floating role badges */
-.photo-badge {
-  position: absolute;
-  background: rgba(5, 9, 18, 0.92);
-  border: 1px solid rgba(0, 212, 255, 0.38);
-  border-radius: 100px;
-  padding: 0.55rem 1.1rem;
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--text);
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  backdrop-filter: blur(14px);
-  z-index: 4;
-  white-space: nowrap;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05) inset;
-  animation: badgeFloat 3.5s ease-in-out infinite alternate;
-}
-.photo-badge i { font-size: 0.88rem; }
-.photo-badge-1 {
-  top: 8%;
-  right: -48px;
-  border-color: rgba(0, 212, 255, 0.38);
-  animation-delay: 0s;
-}
-.photo-badge-1 i { color: var(--accent); }
-.photo-badge-2 {
-  bottom: 12%;
-  left: -52px;
-  border-color: rgba(139, 92, 246, 0.4);
-  animation-delay: -1.75s;
-}
-.photo-badge-2 i { color: var(--accent-2); }
-@keyframes badgeFloat {
-  from { transform: translateY(0px); }
-  to   { transform: translateY(-10px); }
-}
 
 .hero-status {
   display: inline-flex;
