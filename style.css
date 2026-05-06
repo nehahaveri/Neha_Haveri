@@ -414,16 +414,35 @@ body::after {
   position: relative;
   width: 330px;
   height: 420px;
+  border-radius: 28px;
+  overflow: hidden;
+  background: #f5f7ff;
+  box-shadow:
+    0 40px 90px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(255, 255, 255, 0.12),
+    0 0 60px rgba(0, 212, 255, 0.12);
+}
+/* Bottom-fade: white photo blends into dark page */
+.photo-frame::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 130px;
+  background: linear-gradient(to top, var(--bg) 0%, transparent 100%);
+  z-index: 3;
+  pointer-events: none;
+  border-radius: 0 0 28px 28px;
 }
 .profile-photo {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 38%; /* offset from top to frame face, skipping white headroom */
   border-radius: 28px;
   position: relative;
   z-index: 2;
-  box-shadow: 0 40px 90px rgba(0, 0, 0, 0.65), 0 0 0 1px rgba(255, 255, 255, 0.07);
   display: block;
 }
 
