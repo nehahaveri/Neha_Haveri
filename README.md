@@ -173,15 +173,16 @@ Research project exploring bias detection and fairness techniques in ML pipeline
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=nehahaveri&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github"/>
-&nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nehahaveri&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=nehahaveri&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&show=reviews,discussions_started,prs_merged,prs_merged_percentage"/>
+<img width="49%" src="https://streak-stats.demolab.com?user=nehahaveri&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"/>
 
 </div>
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=nehahaveri&theme=tokyonight&hide_border=true)
+<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nehahaveri&layout=donut&theme=tokyonight&hide_border=true&langs_count=8&hide=jupyter%20notebook"/>
+&nbsp;&nbsp;
+<img width="55%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nehahaveri&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"/>
 
 </div>
 
@@ -201,7 +202,7 @@ Research project exploring bias detection and fairness techniques in ML pipeline
 
 <div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=nehahaveri&theme=tokyo-night&hide_border=true&area=true)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=nehahaveri&theme=tokyo-night&hide_border=true&area=true&area_color=6C63FF)
 
 </div>
 
